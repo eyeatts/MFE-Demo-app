@@ -1,0 +1,25 @@
+{
+  "name": "mfe-demo-app",
+  "version": "0.1.0-beta.0",
+  "description": "Container app for multiple web-components in a web-component based Micro-frontend",
+  "scripts": {
+    "build": "stencil build",
+    "start": "stencil build --dev --watch --serve",
+    "test": "stencil test --spec --e2e",
+    "test.watch": "stencil test --spec --e2e --watchAll"
+  },
+  "dependencies": {
+    "@stencil/core": "^1.0.7",
+    "@stencil/router": "^1.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eyeatts/MFE-Demo-app.git"
+  },
+  "author": "eyeatts",
+  "bugs": {
+    "url": "https://github.com/eyeatts/MFE-Demo-app/issues"
+  },
+  "homepage": "https://github.com/eyeatts/MFE-Demo-app#readme",
+  "license": "MIT"
+}
